@@ -59,6 +59,7 @@ header {
 .maintxt {
     float: left;
     width: 50%;
+    height: 50%;
     padding-top: 180px;
     padding-left: 150px;
     display: flex;
@@ -172,7 +173,6 @@ header {
     position: absolute;
     margin: 0px;
     bottom: 0px;    
-    background-color: red;
 }
 
 .more a {
@@ -186,6 +186,7 @@ header {
     background-color: #54B4EA;
     border-bottom: 1px solid #c7c7c7;
     color: white;
+    border-radius: 0px 0px 5px 5px;
 }
 
 #highcontrast {
@@ -319,28 +320,24 @@ footer {
     .mainimg {
         width: 100%;
         height: auto;
-        margin-top: 70px;
-
+        
     }
 
     .mainimg img {
-        width: 300px;
+        width: 50%;
+        margin-top: 0px;
+        padding-top: 0px;
     }
 
     .maintxt {
         float: none;
         width: 100%;
-        height: auto;
         padding-top: 0px;
         padding-left: 0px;
         padding-right: 80px;
         padding-left: 80px;
         text-align: center;
         color: white;
-    }
-
-
-    header {
     }
     
     header {
@@ -356,7 +353,55 @@ footer {
 
     .nav {
         float: none;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     
+    .maintxt h1 {
+        font-size: 150%;
+        font-weight: 100;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .mainimg {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 60%;    
+        height: auto;
+        min-height: 650px;
+        margin-bottom: 50px;
+    }
+
+    #why-buy-text {
+        text-align: center;
+    }
+
+    .card {
+        margin: 10px auto;
+    }
+
+    .card ul {
+        padding-bottom: 50px;
+    }
+
+    .maintxt {
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    .card {
+        width: 90%;    
+    }
 }

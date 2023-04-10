@@ -1,0 +1,22 @@
+header {
+    background: linear-gradient(45deg, #2990cc 35%, #0078bd 100%);
+}
+
+.mainpage {
+    background:none
+}
+
+.underconstruction {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.underconstruction img {
+    width: 500px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
