@@ -1,0 +1,37 @@
+header {
+    background: linear-gradient(45deg, #2990cc 35%, #0078bd 100%);
+}
+
+.contact h1 {
+    text-align: center;
+    color: #2990cc;
+    padding: 50px 0px;
+}
+
+.icons {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.icons img {
+    width: 20px;
+}
+
+.icons div {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+}
+
+.icons p {
+    padding: 0px 10px;
+    color: #c7c7c7;
+    font-weight: bolder;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
